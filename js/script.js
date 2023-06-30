@@ -6,7 +6,7 @@ function typeText() {
 
   for (let i = 0; i < text.length; i++) {
     setTimeout(() => {
-      textDOMElement.textContent += text[i]
+      textDOMElement.textContent += text.charAt(i)
     }, 100 * i)
   }
 
