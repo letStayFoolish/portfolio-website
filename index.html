@@ -19,7 +19,44 @@
     <title>Brad Traversy | Web Developer</title>
   </head>
   <body>
-    <h1>Portfolio Website</h1>
+    <header class="header vh-100 position-relative text-center">
+<!--      text-container has class: Position-relative so we can add z-index in css.-->
+      <div class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+        <h5 class="fs-3 fw-bold text-primary text-uppercase">Hello, World!</h5>
+        <h1 id="typing-text" class="display-1 text-white fw-bold">I am Nemanja Karaklajic</h1>
+
+        <p class="roles text-white text-uppercase fs-4">
+          <span>Frontend Developer | </span>
+          <span>Civil & Structural Engineer</span>
+        </p>
+
+        <a href="#about" class="btn btn-outline-light mt-3 btn-lg">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">
+              <span>More About Me</span>
+            </div>
+          </div>
+        </a>
+
+        <div class="social d-flex gap-3 position-absolute">
+          <a target="_blank" href="mailto:nemanjakaraklajic90@gmail.com">
+            <i class="fa fa-envelope fa-3x text-white"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/nemanjakaraklajic30111990/">
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+          </a>
+          <a target="_blank" href="https://github.com/letStayFoolish">
+            <i class="fab fa-github fa-3x text-white"></i>
+          </a>
+          <a target="_blank" href="tel:+381612886598">
+            <i class="fab fa-whatsapp fa-3x text-white" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </header>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
